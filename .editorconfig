@@ -1,0 +1,2 @@
+[*.{ts,tsx,md}]
+indent_size = 2

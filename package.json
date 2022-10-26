@@ -1,0 +1,62 @@
+{
+  "name": "home-ux-task1175-bug",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "@material-ui/core": ">=4",
+    "@material-ui/styles": "4.11.4",
+    "@mui/material": ">=5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "BROWSER=none PORT=9999 react-scripts start",
+    "lint": "eslint",
+    "lint:all": "yarn lint './src/**/*.{ts,tsx}'",
+    "types:check": "tsc --noemit"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.9",
+    "@babel/runtime": "7.18.9",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.9",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "@typescript-eslint/parser": "5.39.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-formatjs": "10.2.15",
+    "babel-plugin-transform-imports": "2.0.0",
+    "eslint": "7.29.0",
+    "eslint-config-react-app": "5.2.0",
+    "eslint-plugin-flowtype": "4.7.0",
+    "eslint-plugin-formatjs": "2.15.3",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.31.10",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-testing-library": "4.12.4",
+    "full-icu": "1.4.0",
+    "npm-run-all": "4.1.5",
+    "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

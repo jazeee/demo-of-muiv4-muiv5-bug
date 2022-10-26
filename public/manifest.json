@@ -1,0 +1,9 @@
+{
+  "short_name": "UXTASK-1175",
+  "name": "UXTASK-1175",
+  "icons": [
+  ],
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000"
+}
